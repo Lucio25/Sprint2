@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url(/imagenFondo.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100vh;
+}
+.contenedor{
+    width: 70%; 
+    height:100vh;                                      
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 15%;
+
+}
+.formulario{
+    height: 100%;
+    width: 65%;
+    margin-top: 0px;
+    text-align: center;
+    color: #000000a9;
+    
+}
+.entrada{
+width: 100%;
+margin-bottom: 30px;
+height: 50px;
+font-size: 18px;
+background-color: #a9a9a948;
+border: #a9a9a948;
+border-radius: 8px;
+}
+.formulario h3{
+    color: #000;
+    margin-top: 80px;
+    font-size: 45px;
+    margin-bottom: 30px;
+    
+}
+.texto{
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    margin-left:0;
+} 
+.boton{
+    background-color: rgba(249, 237, 50, 1);
+    border: 0px;
+    height: 60px;
+    width: 50%;
+    font-size: 30px;
+    color: black;
+    border-radius: 16px;
+    margin: 10px;
+}
+.formulario .boton:hover{
+    transition: 150ms;
+    transform: scale(1.1);
+}
+.formulario .entrada:hover{
+box-shadow: 5px 5px 5px darkgrey;
+}
+.alertas{
+    color: red;
+    font-size: 16px;
+    font-weight: 550;
+}
